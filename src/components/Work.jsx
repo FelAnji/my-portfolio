@@ -3,7 +3,8 @@ import ecommerce from '../asssets/ecommerce.png'
 import emperora from '../asssets/emperora.png'
 import useQuickTest from '../asssets/useQuickTest.png'
 import Dashboard from '../asssets/Dashboard.png'
-import WeatherApp from '../asssets/WeatherApp.png'
+import Weather from '../asssets/weather.png'
+import ssAgroLtd from '../asssets/ssAgroLtd.png'
 
 const Work = () => {
   return (
@@ -75,11 +76,11 @@ const Work = () => {
             </div>
 
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
-                <img src={WeatherApp} alt="" />
+                <img src={Weather} alt="" />
                 <div className='opacity-0 group-hover:opacity-90 bg-gray-100 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-black tracking-wider'>React Weather App</span>
                     <div className='pt-8 text-center'>
-                        <a target='_blank' rel="noopener" href="/">
+                        <a target='_blank' rel="noopener" href="https://aiqweather.netlify.app/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-100 font-bold-700 font-bold text-lg'>
                                 Live
                             </button>
@@ -90,11 +91,11 @@ const Work = () => {
             </div>
 
             <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center h-[200px] bg-cover relative'>
-                <img src={emperora} alt="" />
-                <div className='opacity-0 group-hover:opacity-90 bg-gray-100 absolute inset-0 flex flox-col justify-center items-center'>
-                    <span className='text-2xl font-bold text-white tracking-wider'></span>
+                <img src={ssAgroLtd} alt="" />
+                <div className='opacity-0 group-hover:opacity-90 bg-gray-100 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className='text-2xl font-bold text-black tracking-wider'>SS Agro LTD</span>
                     <div className='pt-8 text-center'>
-                        <a target='_blank' rel="noopener" href="https://emperora.com">
+                        <a target='_blank' rel="noopener" href="https://ssagroltd.com/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-100 font-bold-700 font-bold text-lg'>
                                 Live
                             </button>
@@ -103,6 +104,8 @@ const Work = () => {
                     </div>
                 </div>
             </div>
+
+            
 
         </div>
     </div>

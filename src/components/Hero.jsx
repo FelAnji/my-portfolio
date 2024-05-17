@@ -1,6 +1,7 @@
 import React from 'react'
 import profilepic from '../asssets/profilepic.png'
 import { TypeAnimation } from 'react-type-animation'
+import AnjiCV from '../asssets/anji_cv.pdf'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
 
       <div className='col-span-2 px-5 my-auto'>
 
-        <h1 className='z-10 text-white text-4xl sm-text:5xl lg:text-8xl font-extrabold'>
+        <h1 className='z-10 text-white text-4xl sm-text:5xl lg:text-7xl font-extrabold'>
           <span className='primary-color'>
             I'm a
           </span> <br />
@@ -20,7 +21,7 @@ const Hero = () => {
             sequence={[
               "Frontend Dev.", 1000,
               "Web Designer", 1000,
-              "Wordress Exp.", 1000,
+              "Wordpress Expert.", 1000,
             ]}
             wrapper='span'
             speed={50}
@@ -33,7 +34,7 @@ const Hero = () => {
         </p>
 
         <div className='my-8'>
-            <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-blue-400 to-slate-300 text-white font-bold'>
+            <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-blue-400 to-slate-300 text-white font-bold' download={AnjiCV}>
               Download CV
             </a>
             <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-blue-400 to-slate-300 text-white hover:border-none'>
