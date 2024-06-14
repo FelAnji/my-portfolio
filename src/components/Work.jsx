@@ -65,7 +65,7 @@ const Work = () => {
                 <div className='opacity-0 group-hover:opacity-90 bg-gray-100 absolute inset-0 flex flex-col justify-center items-center'>
                     <span className='text-2xl font-bold text-black tracking-wider'>React Dashboard</span>
                     <div className='pt-8 text-center'>
-                        <a target='_blank' rel="noopener" href="https://anji-dashboard.netlify.app/">
+                        <a target='_blank' rel="noreferrer" href="https://anji-dashboard.netlify.app/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-100 font-bold-700 font-bold text-lg'>
                                 Live
                             </button>
