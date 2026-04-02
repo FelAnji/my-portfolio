@@ -19,7 +19,7 @@ const Hero = () => {
           <TypeAnimation 
             sequence={[
               "Web Devloper.", 1000,
-              "Web Designer", 1000,
+              "Cybersecurity Enthusiast", 1000,
               "Wordpress Expert.", 1000,
             ]}
             wrapper='span'
