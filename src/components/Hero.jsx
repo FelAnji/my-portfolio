@@ -1,7 +1,6 @@
 import React from 'react'
 import profilepic from '../asssets/profilepic.png'
 import { TypeAnimation } from 'react-type-animation'
-import AnjiCV from '../asssets/anji_cv.pdf'
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
           </span> <br />
           <TypeAnimation 
             sequence={[
-              "Frontend Dev.", 1000,
+              "Web Devloper.", 1000,
               "Web Designer", 1000,
               "Wordpress Expert.", 1000,
             ]}
@@ -34,7 +33,8 @@ const Hero = () => {
         </p>
 
         <div className='my-8'>
-            <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-blue-400 to-slate-300 text-white font-bold' download={AnjiCV}>
+            <a className='px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-blue-400 to-slate-300 text-white font-bold' href="/anji_cv.pdf" 
+          download="anji_cv.pdf">
               Download CV
             </a>
             <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-blue-400 to-slate-300 text-white hover:border-none'>
